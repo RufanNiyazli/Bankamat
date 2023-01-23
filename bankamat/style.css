@@ -1,0 +1,24 @@
+#container{
+    width:800px;
+    height: 800px;
+    border: 3px solid red;
+    margin: 5px auto;
+    position: relative;
+
+}
+.qutu{
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    transition: 0.4s;
+    transform: translate(-50%,0);
+    font-size: 25px;
+}
+
